@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9838925f82.js" crossorigin="anonymous"></script>
+    <style>
+        *{box-sizing: border-box;}
+
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #ca0366;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: red;
+        }
+        
+         .form-container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          margin:150px;
+        }
+       header > h1{
+            margin:auto;
+            text-align: center;
+            text-decoration:dotted;
+            border: 1px solid lightblue;
+            padding: 50px;
+            background-color:#e91e1e30 ;
+        }
+        body{
+            background-color:#9e9e9e94 ;
+        }
+        .foot{
+    position: absolute;
+    bottom: -0;
+    background-color:#1b1a1940;
+    width: 100%;
+    min-height: 20px;
+    float: left;
+    padding: 25px 10px 50px 0px;
+    right: 4px;
+    margin:0px 0px -150px 0px;
+    
+    
+    
+   
+  }
+   .footer-link a{
+    display: block;
+    color:#ca0366;
+    font-weight: bolder;
+    position: relative;
+    
+    
+  } 
+  
+  
+   
+  .footer-link{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: none;
+    left:30px;
+  }
+   
+  .brands{
+    position: absolute;
+    left:300px;
+    bottom: 0;
+    color:#ca0366;
+    font-size: x-large;
+  }
+  span{
+    font-weight: bold;
+  }
+    
+        </style>
+
+</head>
+
+
+<body>
+    <header>
+        <h1>JOIN US TODAY</h1>
+    
+    
+    </header>
+    <div class="form-container">
+        <form>
+            <label for="fname">Firstname</label><br>
+            <input type=" text" id="fname" name="firstname"><br>
+            
+            
+            <label for="lname">lastname</label><br>
+            <input type=" text" id="lname" name="lasttname"><br>
+
+            <label for="country">Country</label>
+            <select id="county" name="country">
+                <option value="Canada">Canada</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Austria">Austria</option>
+            </select>
+            <input type="submit" value="Submit">
+
+
+
+
+        </form>
+
+
+    </div>
+    <div class="footee" style="display: relative"> 
+        <footer class="foot">
+          
+          <div class="footer-link">
+            <a href="../Recipe-Project/index.html">Home</a>
+            <a href="">Support</a>
+            <a href="../Recipe-Project/form.html">Career</a>
+          </div>
+        
+        
+          <div class="brands">
+            <i class="fa-brands fa-instagram" ></i> 
+            </a>
+            <i class="fa-brands fa-twitter" ></i> 
+            </a>
+            <i class="fa-brands fa-facebook" ></i> 
+            </a>
+        
+          </div>
+        
+        </footer>
+        
+         </div>
+</body>
+</html>

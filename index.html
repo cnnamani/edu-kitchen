@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9838925f82.js" crossorigin="anonymous"></script>
+    <style>
+      *{box-sizing: border-box;
+      }
+      .btn {
+        border: 5px dotted pink;
+        padding: px;
+        background-color: #90caf9;
+        width: 50%;
+        margin:auto;
+      }
+      body {
+        background-color: #9e9e9ecc;
+      }
+      a{
+          color:hotpink;
+          text-decoration: none;
+          font-size: large;
+      }
+      a:visited{
+          color:black;
+      }
+      a:hover{
+          color:rebeccapurple
+
+      }
+      h1{
+        font-family:"Lucida Handwriting", cursive;
+        text-align: center;
+      }
+      div.gallery {
+  margin: 20px 150px 0px 150px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+ 
+} 
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #517946;
+ 
+}
+  div.gallery:hover {
+  border: 2px solid #777;
+}
+.dropdown{
+    display: inline-block;
+    position:relative;
+    max-width: 200px;
+    font-size: 20px;
+    top: -60px;
+    right:-1350px;
+    
+}
+.dropdown-container{
+    position:absolute;
+    padding:0px 12px 19px 0px;
+    background-color: #517946;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.25);
+    min-width: 100%;
+    z-index: 1;
+    display:none;
+}
+.dropdown:hover .dropdown-container{
+    display: block;
+    position:absolute;
+    right:10px;
+    cursor: pointer;
+  
+}
+.foot{
+  position: absolute;
+  bottom: -0px;
+  background-color:#1b1a1940;
+  width: 100%;
+  min-height: 20px;
+  float: left;
+  padding: 25px 10px 50px 0px;
+  margin: 0;
+  
+  
+  
+ 
+}
+ .footer-link a{
+  display: block;
+  color:#ca0366;
+  font-weight: bolder;
+} 
+
+
+ 
+.footer-link{
+  display: block;
+  position: absolute;
+  bottom: 10px;
+}
+  .divider{
+    margin: 0px 0px 0px 0px;
+    clear: left;
+  }
+.brands{
+  position: absolute;
+  left:300px;
+  bottom: 0;
+  color:#ca0366;
+  font-size: x-large;
+}
+span{
+  font-weight: bolder;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div>
+    <h1>
+      Welcome to Edu's Kitchen
+    </h1>
+    <hr>
+    <div class="dropdown">
+      <span>Menu</span>
+      <div class="dropdown-container">
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="../Recipe-Project/form.html">Career</a>
+      </div>
+      
+    </div>
+  
+
+    <div class="btn">
+      <a href="../Recipe-Project/jollof.html"><strong>click here for jollof rice recipe</strong></a>
+    </div>
+
+    <br />
+  <div class="btn">
+      <a href="../Recipe-Project/beans.html"
+        ><strong>click here to check my beans recipe</strong></a
+      >
+    </div>
+    <br>
+    <div class="divider">
+    <div class="gallery">
+      <a href="../Recipe-Project/jollof.html">
+      <img src="../Recipe-Project/images/jollof.jpg">
+      </a>
+    
+
+    <div class="desc">Jollof Rice</div>
+  </div>
+  <div class="gallery">
+    <a href="../Recipe-Project/beans.html">
+    <img src="../Recipe-Project/images/beanspot.jpg">
+    </a>
+  
+  
+  <div class="desc">Porridge Plantain and Beans</div>
+  </div>
+  <div class="gallery">
+    <a href="/Recipe-Project/beans.html">
+    <img src="../Recipe-Project/images/photo.jpg">
+    </a>
+  <div class="desc">Fried Plantain and Beans</div>
+    </div>
+    </div>
+ <div class="footee" style="display: relative"> 
+<footer class="foot">
+  
+  <div class="footer-link">
+    <a href="../Recipe-Project/index.html">Home</a>
+    <a href="">Support</a>
+    <a href="../Recipe-Project/form.html">Career</a>
+  </div>
+
+
+  <div class="brands">
+    <i class="fa-brands fa-instagram" ></i> 
+    </a>
+    <i class="fa-brands fa-twitter" ></i> 
+    </a>
+    <i class="fa-brands fa-facebook" ></i> 
+    </a>
+
+  </div>
+
+</footer>
+
+ </div>
+  
+
+  </body>
+</html>
