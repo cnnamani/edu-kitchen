@@ -137,15 +137,15 @@ p::first-line{
 
 
   @media only screen and (min-width: 414px){
-    *{
-      margin:0;
-      padding:0;
+    *{ box-sizing: border-box;
+      
     }
     
 h1 {
 
   margin: auto;
   position: relative;
+  right:1000px;
   }
 
     .bns {
@@ -159,14 +159,28 @@ h1 {
     .wrapper{
       margin: 0 auto;
     }
-    .footee{
-      position:relative;
-      padding:10px 0px 0px;
-      padding-bottom: 0;
-      bottom:-800px;
-    }
    
-    
+   
+    .foot {
+      position: absolute;
+      bottom: -500px;
+      background-color: #1b1a1940;
+      width: 100%;
+      min-height: 20px;
+      float: left;
+      padding: 25px 10px 50px 0px;
+      margin: 0;
+  
+  
+  
+  
+    }
+            .footee {
+              position: relative;
+              padding: 10px 0px 0px;
+              padding-bottom: 0;
+              bottom: -800px;
+            }
     
 
 }
