@@ -8,6 +8,11 @@
     <script src="https://kit.fontawesome.com/9838925f82.js" crossorigin="anonymous"></script>
     <style>
       *{box-sizing: border-box;
+        margin:0;
+        padding:0;
+      }
+      .wrapper{
+        width: 100%;
       }
       .btn {
         border: 5px dotted pink;
@@ -126,11 +131,32 @@ span{
   font-weight: bolder;
 }
 
+@media only screen and (min-width: 414px) {
+  .foot{
+  position: absolute;
+  bottom: -500px;
+  background-color:#1b1a1940;
+  width: 100%;
+  min-height: 20px;
+  float: left;
+  padding: 25px 10px 50px 0px;
+  margin: 0;
+  
+  
+  
+ 
+}
+.divider{
+  margin:20px 0px 100px;
+  display: block;
+}
+  
+}
     </style>
   </head>
 
   <body>
-    <div>
+    <header>
     <h1>
       Welcome to Edu's Kitchen
     </h1>
@@ -144,8 +170,8 @@ span{
       </div>
       
     </div>
-  
-
+  </header>
+<div class="wrapper">
     <div class="btn">
       <a href="../edu-kitchen/jollof.html"><strong>click here for jollof rice recipe</strong></a>
     </div>
@@ -204,7 +230,7 @@ span{
 </footer>
 
  </div>
-  
+  </div>
 
   </body>
 </html>
