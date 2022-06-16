@@ -138,10 +138,7 @@ p::first-line{
     *{ box-sizing: border-box;
       
     }
-   html, body{
-      min-height: 100vh;
-      background-color: #9e9e9e1c;
-    }
+  
 h1 {
   display: inline-block;
   flex:1;
@@ -175,18 +172,21 @@ h1 {
     }
             .footee {
               position: relative;
-              padding: 10px 0px 0px;
+              padding: 10px 20px 0px;
               padding-bottom: 0;
-              bottom: 200px;
+              bottom: 224px;
               width: 150%;
             }
           .direction{
-            margin:10px;
+            margin:1px;
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
           }
     
-
+.direction {
+  margin: 20px;
+  padding: 10px;
+}
 }
 
