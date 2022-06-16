@@ -140,7 +140,10 @@ p::first-line{
     *{ box-sizing: border-box;
       
     }
-    
+    body{
+      min-height: 100vh;
+      background-color: #04AA6D;
+    }
 h1 {
 
   margin: auto;
@@ -157,6 +160,8 @@ h1 {
       max-height: 300px;
     }
     .wrapper{
+      height: auto !important;
+      height: 100%;
       margin: 0 auto;
     }
    
@@ -181,6 +186,7 @@ h1 {
               padding: 10px 0px 0px;
               padding-bottom: 0;
               bottom: 200px;
+              width: 100%;
             }
     
 
