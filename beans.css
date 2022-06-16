@@ -162,8 +162,9 @@ h1 {
    
    
     .foot {
+      display: flex;
       position: absolute;
-      bottom: -500px;
+      bottom: -300px;
       background-color: #1b1a1940;
       width: 100%;
       min-height: 20px;
@@ -179,7 +180,7 @@ h1 {
               position: relative;
               padding: 10px 0px 0px;
               padding-bottom: 0;
-              bottom: -800px;
+              bottom: 200px;
             }
     
 
