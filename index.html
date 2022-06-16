@@ -147,8 +147,17 @@ span{
  
 }
 .divider{
-  margin:20px 0px 100px;
-  display: block;
+  
+  display: flex;
+  
+  margin:auto;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content:space-between ;
+}
+.divider .gallary{
+  margin:1px;
 }
   .footee{
       position:relative;
@@ -164,6 +173,13 @@ span{
   color:#ca0366;
   font-size: x-large;
   
+}
+.dropdown{
+  display: none;
+}
+.btn{
+  padding:20px 20px 10px;
+  margin:20px 100px 20px;
 }
     </style>
   </head>
@@ -196,13 +212,11 @@ span{
       >
     </div>
     <br>
-    <div class="divider">
+<div class="divider">
     <div class="gallery">
       <a href="../edu-kitchen/jollof.html">
       <img src="../edu-kitchen/images/jollof.jpg">
       </a>
-    
-
     <div class="desc">Jollof Rice</div>
   </div>
   <div class="gallery">
@@ -220,6 +234,7 @@ span{
   <div class="desc">Fried Plantain and Beans</div>
     </div>
     </div>
+</div>
  <div class="footee" style="display: relative"> 
 <footer class="foot">
   
