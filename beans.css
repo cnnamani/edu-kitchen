@@ -140,7 +140,7 @@ p::first-line{
     *{ box-sizing: border-box;
       
     }
-    body{
+   html, body{
       min-height: 100vh;
       background-color: #04AA6D;
     }
@@ -186,9 +186,22 @@ h1 {
               padding: 10px 0px 0px;
               padding-bottom: 0;
               bottom: 200px;
-              width: 100%;
+              width: 150%;
             }
-    
+          .direction{
+            margin:10px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+          }
+        img {
+         
+          position: absolute;
+          display: inline-block;
+          width: 100px;
+          left: 400px;
+          max-height: 300px;
+        }
 
 }
 
